@@ -1,0 +1,6 @@
+[submodule "pokeemerald"]
+	path = pokeemerald
+	url = https://github.com/pret/pokeemerald.git
+[submodule "agbcc"]
+	path = agbcc
+	url = https://github.com/pret/agbcc.git
