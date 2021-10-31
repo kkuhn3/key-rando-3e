@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>3E Seeder</title>
+		<link rel="stylesheet" href="index.css">
+		<script src="index.js"></script>
+	</head>
+	<div id="left">
+		<label for="logics">Choose a logic:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</label>
+
+		<select id="logics" onChange="(async ()=>{await loadLogic(value)})()">
+			<option value="none">None</option>
+			<option value="glitchless">Glitchless</option>
+		</select>
+		<br>
+		
+		<label for="flashLogic">Flash in Logic&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</label>
+		<input type="checkbox" id="flashLogic">
+		<br>
+		
+		<label for="earlyFly">Early access to Fly&#160;&#160;&#160;&#160;&#160;&#160;</label>
+		<input type="checkbox" id="earlyFly">
+		<br>
+		
+		<label for="earlyBike">Early access to Mach Bike</label>
+		<input type="checkbox" id="earlyBike">
+		<br>
+		
+		<input type="button" value="Generate" onclick="generateSeed()">
+	</div>
+	<div id="right">
+		<textarea id="logicJson"></textarea>
+	</div>
+</html>
