@@ -190,10 +190,8 @@ function generateSeed() {
 	let loAccessable = getAccessable(logic, loObtained);
 	let loSets = getSets(logic, loObtained, allItems, loAccessable);
 	while(!isAccessable(logic, loObtained, "EVENT_HALL_OF_FAME")) {
-		console.log(loSets);
 		const loSubSets = getSubSets(loSets);
 		const addSet = loSubSets[Math.floor(loSubSets.length * Math.random())];
-		console.log(addSet);
 		loSets = removeSet(loSets, addSet);
 		for(const i in addSet) {
 			loObtained.push(addSet[i]);
@@ -213,5 +211,5 @@ function generateSeed() {
 			loAvailableLocs.splice(ind, 1);
 		}
 	}
-	//downloadObjectAsJson(seed, "seed");
+	downloadObjectAsJson(seed, "seed");
 }
