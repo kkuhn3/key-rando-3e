@@ -126,10 +126,24 @@ function getSets(logic, loObtained, loLocsNeedingItems, loAccessable) {
 			loSets = loSets.concat(getSetsForLoc(logic, loObtained, logic.items[loLocsNeedingItems[i]]));
 		}
 	}
+	for(const i in loSets) {
+		let strArray = loSets[i].map(JSON.stringify);
+		let uniqueSet = new Set(strArray);
+		loSets[i] = Array.from(uniqueSet, JSON.parse);
+	}
 	let stringArray = loSets.map(JSON.stringify);
 	let uniqueStringArray = new Set(stringArray);
 	loSets = Array.from(uniqueStringArray, JSON.parse);
 	return loSets;
+}
+
+function isContained(loInner, loOuter) {
+	for(const i in loInner) {
+		if(!loOuter.includes(loInner[i])) {
+			return false;
+		}
+	}
+	return true;
 }
 
 function getSubSets(loSets) {
@@ -137,10 +151,8 @@ function getSubSets(loSets) {
 	for(const i in loSets) {
 		let isMini = true;
 		for(const j in loSets) {
-			if(i !== j) {
-				if(loSets[j].every( function( el ) {
-					return loSets[i].includes(el);
-				})) {
+			if(j !== i) {
+				if(isContained(loSets[j], loSets[i])) {
 					isMini = false;
 				}
 			}
@@ -178,8 +190,10 @@ function generateSeed() {
 	let loAccessable = getAccessable(logic, loObtained);
 	let loSets = getSets(logic, loObtained, allItems, loAccessable);
 	while(!isAccessable(logic, loObtained, "EVENT_HALL_OF_FAME")) {
+		console.log(loSets);
 		const loSubSets = getSubSets(loSets);
 		const addSet = loSubSets[Math.floor(loSubSets.length * Math.random())];
+		console.log(addSet);
 		loSets = removeSet(loSets, addSet);
 		for(const i in addSet) {
 			loObtained.push(addSet[i]);
@@ -199,5 +213,5 @@ function generateSeed() {
 			loAvailableLocs.splice(ind, 1);
 		}
 	}
-	downloadObjectAsJson(seed, "seed");
+	//downloadObjectAsJson(seed, "seed");
 }
