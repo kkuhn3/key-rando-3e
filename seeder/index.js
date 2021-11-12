@@ -181,6 +181,25 @@ function removeSet(loSets, aSet) {
 	return newLoSets;
 }
 
+function getValidLoc(item, loAvailableLocs) {
+	if(item.includes("FLAG_")) {
+		const bannedForBadges = ["ITEM_ROOM_1_KEY", "ITEM_ROOM_2_KEY", "ITEM_ROOM_4_KEY", 
+								 "ITEM_ROOM_6_KEY", "ITEM_TM32", "ITEM_MACH_BIKE", 
+								 "ITEM_ACRO_BIKE", "ITEM_TM14", "ITEM_TM15", "ITEM_TM16", 
+								 "ITEM_TM17", "ITEM_TM20", "ITEM_TM25", "ITEM_TM33", "ITEM_TM38"]
+		for(const i in bannedForBadges) {
+			const ind = loAvailableLocs.indexOf(bannedForBadges[i]);
+			if(ind > -1) {
+				loAvailableLocs.splice(ind, 1);
+			}
+		}
+	}
+	if(loAvailableLocs.length < 1) {
+		console.log("no place to put " + item);
+	}
+	return loAvailableLocs[Math.floor(loAvailableLocs.length * Math.random())];
+}
+
 function generateSeed() {
 	const logic = JSON.parse(logicJson.innerHTML);
 	const allItems = Object.keys(logic.items);
@@ -196,7 +215,7 @@ function generateSeed() {
 		for(const i in addSet) {
 			loObtained.push(addSet[i]);
 			const loAvailableLocs = loAccessable.filter(value => !loLocs.includes(value));
-			const randomLoc = loAvailableLocs[Math.floor(loAvailableLocs.length * Math.random())];
+			const randomLoc = getValidLoc(addSet[i], loAvailableLocs);
 			seed[addSet[i]] = randomLoc;
 			loLocs.push(randomLoc);
 		}

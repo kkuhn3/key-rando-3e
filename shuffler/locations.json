@@ -1,0 +1,395 @@
+{
+  "ITEM_MACH_BIKE": {
+    "file": "pokeemerald/data/maps/MauvilleCity_BikeShop/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_COIN_CASE": {
+    "file": "pokeemerald/data/maps/MauvilleCity_House2/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_ITEMFINDER": {
+    "file": "pokeemerald/data/maps/Route110/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_OLD_ROD": {
+    "file": "pokeemerald/data/maps/DewfordTown/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_GOOD_ROD": {
+    "file": "pokeemerald/data/maps/Route118/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_SUPER_ROD": {
+    "file": "pokeemerald/data/maps/MossdeepCity_House3/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_SS_TICKET": {
+    "file": "na",
+    "action": ""
+  },
+  "ITEM_WAILMER_PAIL": {
+    "file": "pokeemerald/data/maps/Route104_PrettyPetalFlowerShop/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_DEVON_GOODS": {
+    "file": "pokeemerald/data/maps/RusturfTunnel/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_SOOT_SACK": {
+    "file": "pokeemerald/data/maps/Route113_GlassWorkshop/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_BASEMENT_KEY": {
+    "file": "pokeemerald/data/maps/MauvilleCity/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_ACRO_BIKE": {
+    "file": "pokeemerald/data/maps/MauvilleCity_BikeShop/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_POKEBLOCK_CASE": {
+    "file": "pokeemerald/data/scripts/contest_hall.inc",
+    "action": "giveitem "
+  },
+  "ITEM_LETTER": {
+    "file": "pokeemerald/data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_EON_TICKET": {
+    "file": "na",
+    "action": ""
+  },
+  "ITEM_SCANNER": {
+    "file": "pokeemerald/data/scripts/item_ball_scripts.inc",
+    "action": "finditem "
+  },
+  "ITEM_GO_GOGGLES": {
+    "file": "pokeemerald/data/maps/LavaridgeTown/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_METEORITE": {
+    "file": "pokeemerald/data/maps/MtChimney/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_ROOM_1_KEY": {
+    "file": "pokeemerald/data/maps/AbandonedShip_HiddenFloorRooms/map.json",
+    "action": ""
+  },
+  "ITEM_ROOM_2_KEY": {
+    "file": "pokeemerald/data/maps/AbandonedShip_HiddenFloorRooms/map.json",
+    "action": ""
+  },
+  "ITEM_ROOM_4_KEY": {
+    "file": "pokeemerald/data/maps/AbandonedShip_HiddenFloorRooms/map.json",
+    "action": ""
+  },
+  "ITEM_ROOM_6_KEY": {
+    "file": "pokeemerald/data/maps/AbandonedShip_HiddenFloorRooms/map.json",
+    "action": ""
+  },
+  "ITEM_STORAGE_KEY": {
+    "file": "pokeemerald/data/scripts/item_ball_scripts.inc",
+    "action": "finditem "
+  },
+  "ITEM_ROOT_FOSSIL": {
+    "file": "pokeemerald/data/maps/MirageTower_4F/scripts.inc",
+    "file2": "pokeemerald/data/maps/DesertUnderpass/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_CLAW_FOSSIL": {
+    "file": "pokeemerald/data/maps/MirageTower_4F/scripts.inc",
+    "file2": "pokeemerald/data/maps/DesertUnderpass/scripts.inc",
+    "action": "giveitem ",
+    "action2": "giveitem "
+  },
+  "ITEM_DEVON_SCOPE": {
+    "file": "pokeemerald/data/maps/Route120/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_MYSTIC_TICKET": {
+    "file": "na",
+    "action": ""
+  },
+  "ITEM_AURORA_TICKET": {
+    "file": "na",
+    "action": ""
+  },
+  "ITEM_POWDER_JAR": {
+    "file": "pokeemerald/data/maps/SlateportCity/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_MAGMA_EMBLEM": {
+    "file": "pokeemerald/data/maps/MtPyre_Summit/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_OLD_SEA_MAP": {
+    "file": "na",
+    "action": ""
+  },
+  "FLAG_BADGE01_GET": {
+    "file": "pokeemerald/data/maps/RustboroCity_Gym/scripts.inc",
+    "action": "setflag "
+  },
+  "FLAG_BADGE02_GET": {
+    "file": "pokeemerald/data/maps/DewfordTown_Gym/scripts.inc",
+    "action": "setflag "
+  },
+  "FLAG_BADGE03_GET": {
+    "file": "pokeemerald/data/maps/MauvilleCity_Gym/scripts.inc",
+    "action": "setflag "
+  },
+  "FLAG_BADGE04_GET": {
+    "file": "pokeemerald/data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+    "action": "setflag "
+  },
+  "FLAG_BADGE05_GET": {
+    "file": "pokeemerald/data/maps/PetalburgCity_Gym/scripts.inc",
+    "action": "setflag "
+  },
+  "FLAG_BADGE06_GET": {
+    "file": "pokeemerald/data/maps/FortreeCity_Gym/scripts.inc",
+    "action": "setflag "
+  },
+  "FLAG_BADGE07_GET": {
+    "file": "pokeemerald/data/maps/MossdeepCity_Gym/scripts.inc",
+    "action": "setflag "
+  },
+  "FLAG_BADGE08_GET": {
+    "file": "pokeemerald/data/maps/SootopolisCity_Gym_1F/scripts.inc",
+    "action": "setflag "
+  },
+  "ITEM_TM01": {
+    "file": "pokeemerald/data/scripts/item_ball_scripts.inc",
+    "action": "finditem "
+  },
+  "ITEM_TM02": {
+    "file": "pokeemerald/data/scripts/item_ball_scripts.inc",
+    "action": "finditem "
+  },
+  "ITEM_TM03": {
+    "file": "pokeemerald/data/maps/SootopolisCity_Gym_1F/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM04": {
+    "file": "pokeemerald/data/maps/MossdeepCity_Gym/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM05": {
+    "file": "pokeemerald/data/maps/Route114/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM06": {
+    "file": "pokeemerald/data/scripts/item_ball_scripts.inc",
+    "action": "finditem "
+  },
+  "ITEM_TM07": {
+    "file": "pokeemerald/data/scripts/item_ball_scripts.inc",
+    "action": "finditem "
+  },
+  "ITEM_TM08": {
+    "file": "pokeemerald/data/maps/DewfordTown_Gym/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM09": {
+    "file": "pokeemerald/data/maps/Route104/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM10": {
+    "file": "pokeemerald/data/maps/FortreeCity_House2/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM11": {
+    "file": "pokeemerald/data/scripts/item_ball_scripts.inc",
+    "action": "finditem "
+  },
+  "ITEM_TM12": {
+    "file": "pokeemerald/data/maps/Route110_TrickHouseEnd/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM13": {
+    "file": "pokeemerald/data/scripts/item_ball_scripts.inc",
+    "action": "finditem "
+  },
+  "ITEM_TM14": {
+    "file": "pokeemerald/data/maps/LilycoveCity_DepartmentStore_4F/scripts.inc",
+    "action": ".2byte "
+  },
+  "ITEM_TM15": {
+    "file": "pokeemerald/data/maps/LilycoveCity_DepartmentStore_4F/scripts.inc",
+    "action": ".2byte "
+  },
+  "ITEM_TM16": {
+    "file": "pokeemerald/data/maps/LilycoveCity_DepartmentStore_4F/scripts.inc",
+    "action": ".2byte "
+  },
+  "ITEM_TM17": {
+    "file": "pokeemerald/data/maps/LilycoveCity_DepartmentStore_4F/scripts.inc",
+    "action": ".2byte "
+  },
+  "ITEM_TM18": {
+    "file": "pokeemerald/data/scripts/item_ball_scripts.inc",
+    "action": "finditem "
+  },
+  "ITEM_TM19": {
+    "file": "pokeemerald/data/maps/Route123/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM20": {
+    "file": "pokeemerald/data/maps/LilycoveCity_DepartmentStore_4F/scripts.inc",
+    "action": ".2byte "
+  },
+  "ITEM_TM21": {
+    "file": "pokeemerald/data/maps/PacifidlogTown_House2/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM22": {
+    "file": "pokeemerald/data/scripts/item_ball_scripts.inc",
+    "action": "finditem "
+  },
+  "ITEM_TM23": {
+    "file": "pokeemerald/data/scripts/item_ball_scripts.inc",
+    "action": "finditem "
+  },
+  "ITEM_TM24": {
+    "file": "pokeemerald/data/maps/MauvilleCity/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM25": {
+    "file": "pokeemerald/data/maps/LilycoveCity_DepartmentStore_4F/scripts.inc",
+    "action": ".2byte "
+  },
+  "ITEM_TM26": {
+    "file": "pokeemerald/data/scripts/item_ball_scripts.inc",
+    "action": "finditem "
+  },
+  "ITEM_TM27": {
+    "file": "pokeemerald/data/maps/PacifidlogTown_House2/scripts.inc",
+    "action": "finditem ",
+    "file2": "pokeemerald/data/maps/FallarborTown_CozmosHouse/scripts.inc",
+    "action2": "giveitem "
+  },
+  "ITEM_TM28": {
+    "file": "pokeemerald/data/maps/Route114_FossilManiacsHouse/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM29": {
+    "file": "pokeemerald/data/scripts/item_ball_scripts.inc",
+    "action": "finditem "
+  },
+  "ITEM_TM30": {
+    "file": "pokeemerald/data/scripts/item_ball_scripts.inc",
+    "action": "finditem "
+  },
+  "ITEM_TM31": {
+    "file": "pokeemerald/data/maps/SootopolisCity_House1/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM32": {
+    "file": "pokeemerald/data/maps/Route113/map.json",
+    "action": ""
+  },
+  "ITEM_TM33": {
+    "file": "pokeemerald/data/maps/LilycoveCity_DepartmentStore_4F/scripts.inc",
+    "action": ".2byte "
+  },
+  "ITEM_TM34": {
+    "file": "pokeemerald/data/maps/MauvilleCity_Gym/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM35": {
+    "file": "pokeemerald/data/maps/MauvilleCity_GameCorner/scripts.inc",
+    "action": "additem"
+  },
+  "ITEM_TM36": {
+    "file": "pokeemerald/data/maps/DewfordTown_Hall/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM37": {
+    "file": "pokeemerald/data/scripts/item_ball_scripts.inc",
+    "action": "finditem "
+  },
+  "ITEM_TM38": {
+    "file": "pokeemerald/data/maps/LilycoveCity_DepartmentStore_4F/scripts.inc",
+    "action": ".2byte "
+  },
+  "ITEM_TM39": {
+    "file": "pokeemerald/data/maps/RustboroCity_Gym/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM40": {
+    "file": "pokeemerald/data/maps/FortreeCity_Gym/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM41": {
+    "file": "pokeemerald/data/maps/FortreeCity_Gym/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM42": {
+    "file": "pokeemerald/data/maps/SlateportCity_BattleTentLobby/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM43": {
+    "file": "pokeemerald/data/scripts/secret_power_tm.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM44": {
+    "file": "pokeemerald/data/maps/LilycoveCity_House2/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM45": {
+    "file": "pokeemerald/data/maps/VerdanturfTown_BattleTentLobby/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM46": {
+    "file": "pokeemerald/data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM47": {
+    "file": "pokeemerald/data/maps/GraniteCave_StevensRoom/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM48": {
+    "file": "pokeemerald/data/scripts/item_ball_scripts.inc",
+    "action": "finditem "
+  },
+  "ITEM_TM49": {
+    "file": "pokeemerald/data/maps/SSTidalRooms/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_TM50": {
+    "file": "pokeemerald/data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_HM01": {
+    "file": "pokeemerald/data/maps/RustboroCity_CuttersHouse/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_HM02": {
+    "file": "pokeemerald/data/maps/Route119/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_HM03": {
+    "file": "pokeemerald/data/maps/PetalburgCity_WallysHouse/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_HM04": {
+    "file": "pokeemerald/data/maps/RusturfTunnel/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_HM05": {
+    "file": "pokeemerald/data/maps/GraniteCave_1F/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_HM06": {
+    "file": "pokeemerald/data/maps/MauvilleCity_House2/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_HM07": {
+    "file": "pokeemerald/data/maps/SootopolisCity/scripts.inc",
+    "action": "giveitem "
+  },
+  "ITEM_HM08": {
+    "file": "pokeemerald/data/maps/MossdeepCity_StevensHouse/scripts.inc",
+    "action": "giveitem "
+  }
+}
